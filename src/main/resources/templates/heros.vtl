@@ -1,0 +1,20 @@
+<div class="box group">
+	<h3>This is <small>All heros page</small></h3>
+
+	#foreach($hero in $heros)
+		<div class="col-md-4 each-hero group prof">
+			<a href="/heros/$hero.getId()">
+				<div class="myname">
+					<p>$hero.getName() - ($hero.getAge())</p>
+				</div>
+				<div class="myimg">
+					<img src="/images/profile.png">
+				</div>
+				<div class="mydetails">
+					<span>$hero.getPower()</span>
+				</div>
+			</a>
+		</div>
+	#end
+
+</div>

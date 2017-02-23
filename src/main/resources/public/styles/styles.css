@@ -1,0 +1,152 @@
+body {
+	background: #f5f5f5;
+}
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.padding-0 {
+	padding: 0;
+}
+
+.margin-0 {
+	margin: 0;
+}
+
+.box {
+	width: 60%;
+	padding: 20px;
+	margin: 0 auto;
+	border-radius: 6px;
+	background: #fff;
+	border: 1px solid #dcdcdc;
+}
+.box-nav {
+	width: 60%;
+	margin: 2% auto;
+}
+.mynav {
+	background: #131313;
+	list-style: none;
+	padding: 2px 10px;
+	text-align: center;
+	border-radius: 20px;
+}
+.mynav li {
+	padding: 5px;
+    display: inline-block;
+    background: #013A55;
+    border-radius: 30%;
+    min-width: 140px;
+    text-align: center;
+    color: #f2f2f2;
+    cursor: pointer;
+    transition: 1s;
+}
+.mynav li:hover {
+	transition: 1s;
+	background: #1983B5;
+}
+.mynav li a {
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #f2f2f2;
+}
+.welcome {
+	text-align: center;
+	color: #333;
+}
+.welcome h1 {
+	color: #013A55;
+	margin-bottom: 5%;
+}
+.welcome a {
+	font-weight: bold;
+	min-width: 160px;
+}
+#form-squad, #form-heros {
+	width: 60%;
+	margin: 0 auto;
+	padding: 10px;
+}
+#form-squad h3, #form-heros h3 {
+	text-align: center;
+	color: #013A55;
+}
+.each-group {
+	background: #f5f5f5;
+	padding: 10px;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+.each-group:hover {
+	opacity: 0.6;
+}
+.each-group a {
+	font-size: 18px;
+	font-weight: bold;
+	color: #013A55;
+	text-decoration: none;
+}
+.each-group a p {
+	margin: 0;
+}
+
+.each-squad {
+	padding: 10px;
+	width: 
+}
+.squad-img {
+	width: 35%;
+    padding: 10px;
+    background: #e2e2e2;
+    text-align: center;
+    min-height: 180px;
+    float: left;
+}
+.squad-details {
+	width: 60%;
+	padding: 10px;
+	float: right;
+	min-height: 180px;
+}
+.squad-details h4 {
+	padding: 15px 10px;
+}
+
+#img-prof {
+	width: 100%;
+}
+
+.prof {
+    background: #fff;
+    width: 30%;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-bottom: 20px;
+    margin-left: 3%;
+    border: 1px solid #dcd;
+}
+.prof:hover {
+    opacity: 0.8;
+    transition: 0.5s;
+}
+.prof a {
+	color: #333;
+    text-decoration: none;
+}
+.myname > p {
+    padding: 7px 0 7px 0;
+    margin: 0;
+}
+.myimg img {
+    width: 100%;
+}
+.mydetails > span {
+    color: #28744A;
+    text-align: center;
+    font-weight: bold;
+}

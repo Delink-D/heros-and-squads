@@ -1,0 +1,14 @@
+<div class="box">
+	<h3>This are <small>All Squads</small></h3>
+	#if($squads)
+		#foreach($squad in $squads)
+			<div class="each-group">
+				<a href="/groups/$squad.getId()">
+					<p>$squad.getName()</p>
+				</a>
+			</div>
+		#end
+	#else
+		<h4>There are no squads yet</h4>
+	#end
+</div>

@@ -1,0 +1,17 @@
+<div class="box">
+	<form action="/heros" method="post" id="form-heros">
+		<h3>Add a Hero</h3>
+		<div class="form-group">
+			<label>Hero Name</label>
+			<input type="text" name="name" placeholder="Hero Name" class="form-control">
+		</div>
+		<div class="form-group">
+			<label>Hero Age</label>
+			<input type="number" name="age" placeholder="Hero Age" class="form-control">
+		</div>
+		<div class="form-group">
+			<input name="squadid" value="$squad.getId()" type="hidden">
+			<input type="submit" class="btn btn-primary" value="Add Hero">
+		</div>
+	</form>
+</div>
